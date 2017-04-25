@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.engahmed.movie_app.Activities.MainActivity">
+    <item android:title="@string/most_rated"
+        android:id="@+id/topRated"
+        android:orderInCategory="100" />
+
+    <item android:title="@string/popularity"
+        android:id="@+id/Popularity"/>
+
+    <item android:title="Favourite"
+        android:id="@+id/Favourite"
+        android:orderInCategory="100"/>
+</menu>
